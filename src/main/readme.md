@@ -1,3 +1,33 @@
+# Java I: Body Mass Index (BMI)
+
+## Project Context
+
+In the context of promoting health and well-being, our development team has set out to create a Body Mass Index (BMI) Calculator in Java. This application will provide users with an easy-to-use tool to calculate their BMI and better understand their physical health.
+
+## Steps to Develop the BMI Calculator
+
+1. **Import the Scanner Class**  
+   To enable user input, it is necessary to import the `Scanner` class.
+
+2. **Instantiate the Scanner Class**  
+   Create an object of the `Scanner` class to read user inputs.
+
+3. **Create Variables of Type `float`**  
+   Use user inputs to create `float` variables that will store the values needed for the BMI calculation.
+
+4. **Close the Scanner**  
+   After obtaining all necessary inputs, close the `Scanner` object.
+
+5. **Calculate the BMI**  
+   Create a variable that will perform the BMI calculation using the appropriate formula.
+
+6. **Round the BMI**  
+   Round the calculated BMI value to one decimal place for easier interpretation.
+
+7. **Compare the BMI with Standard Ranges**  
+   Compare the BMI value with the standard BMI table to determine the user's weight category and provide a description of the obtained BMI range.
+
+
 # Java I: Índice de Masa Corporal
 
 ## Contexto del Proyecto
