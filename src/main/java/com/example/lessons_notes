@@ -1,0 +1,41 @@
+package com.example;
+
+public class main {
+    public static void main(String[] args) {
+        //IF STATEMENT
+        String adminUsername = "Eva"; 
+        checkUserAdmin(adminUsername); }
+
+        public static void checkUserAdmin(String adminUsername){
+        if (adminUsername == "Eva"){
+            System.out.println("El user es: " + adminUsername + "puede ingresar a la BBDD");
+
+        String adminUsername2 = "Jose";
+        if(adminUsername2 == "Jose") {
+            System.out.println(adminUsername2);
+        } else {
+            System.out.println("Fran");
+        }
+        //FOR LOOP (RANGE)
+        for (int iteration = 1; iteration <= 5; iteration++) {
+            System.out.println(iteration);
+            }
+        //FUNCIONES METHODS
+        /*modificadorAcceso (public, private, protected) tipoRetorno (que devuelve la funcion: void, int) nombreFuncion (tipoParametro1 nombreParametro1, tipoParametro2 nombreParametro2, ...) {
+            // Cuerpo de la función
+            // Procesamiento y cálculos
+            return valorRetorno;                      
+    
+    }
+    public static void add(int a, int b) {
+        System.out.println(a + b);;
+    }
+    public static String makePizza(char agua, String harina, String levadura) {
+        return a + b;
+    }
+
+    
+    
+    }*/ 
+
+
