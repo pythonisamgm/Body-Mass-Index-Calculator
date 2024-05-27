@@ -1,7 +1,7 @@
 # Java I: Body Mass Index (BMI)
 
 
-## UPDATE APP (27/15/2024)
+## UPDATE APP (27/15/2024). File: bmiCalculatorJOptionpane.java
 I added a simple interface using JOptionPane's methods "showInputDialog" and "showMessageDialog". 
 
 
@@ -40,7 +40,7 @@ In the context of promoting health and well-being, our development team has set 
 
 
 # Java I: Índice de Masa Corporal
-## ACTUALIZACIÓN APP (27/15/2024)
+## ACTUALIZACIÓN APP (27/15/2024). Fichero: bmiCalculatorJOptionpane.java
 He añadido una interfaz simple usando los métodos "showInputDialog" y "showMessageDialog" de JOptionPane. 
 
 
