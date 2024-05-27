@@ -5,9 +5,9 @@ import javax.swing.JOptionPane;
 public class bmiCalculatorJOptionPane {
     public static void main(String[] args) {
         String weight = JOptionPane.showInputDialog 
-        ("Introduce tu peso (ej: 58.2): ");
+        ("Enter your weight (eg: 58.2): ");
         String height = JOptionPane.showInputDialog
-        ("Introduce tu altura (ej: 1.58): ");
+        ("Enter your height (eg: 1.58): ");
         
         
         double weightToDouble = Double.parseDouble(weight);
@@ -20,23 +20,23 @@ public class bmiCalculatorJOptionPane {
                
         String classification = "";
         if(bmi < 16.0) {
-            classification = "Tienes delgadez severa.";
+            classification = "You have severe thinness.";
         } else if(bmi >= 16.0 && bmi < 17.0) {
-            classification = "Tienes delgadez moderada.";
+            classification = "You have moderate thinness.";
         } else if(bmi >= 17.0 && bmi < 18.5) {
-            classification = "Tienes delgadez leve.";
+            classification = "You have mild thinness.";
         } else if(bmi >= 18.5 && bmi < 25.0) {
-            classification = "Tienes peso normal.";
+            classification = "You have normal weight.";
         } else if(bmi >= 25.0 && bmi < 30.0) {
-            classification = "Tienes sobrepeso.";
+            classification = "You are overweight.";
         } else if(bmi >= 30.0 && bmi < 35.0) {
-            classification = "Tienes obesidad leve.";
+            classification = "You have obesity class I.";
         } else if(bmi >= 35.0 && bmi < 40.0) {
-            classification = "Tienes obesidad moderada.";
+            classification = "You have obesity class II (severe obesity).";
         }if(bmi >= 40.0) {
-            classification = "Tienes obesidad mórbida.";
+            classification = "You have obesity class III (very severe obesity).";
         }
-        JOptionPane.showMessageDialog(null, "Tu índice de masa corporal es: " + bmi + ". "+ classification);
+        JOptionPane.showMessageDialog(null, "Your body mass index is: " + bmi + ". "+ classification);
     }
     
 }

@@ -6,13 +6,13 @@ public class bmicalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Introduce tu peso (ej: 58,2): ");
+        System.out.println("Enter your weight (eg: 58,2): ");
         float weight =scanner.nextFloat();
-        System.out.println("Has introducido correctamente tu peso: " + weight);
+        System.out.println("You have entered correctly your weight: " + weight);
 
-        System.out.println("Introduce tu altura (ej: 1,58): ");
+        System.out.println("Ener your height (eg: 1,58): ");
         float height = scanner.nextFloat();
-        System.out.println("Has introducido correctamente tu altura: " + height);
+        System.out.println("You have entered correctly your height: " + height);
         scanner.close();
 
         double bmiFloat = weight/(height*height);
@@ -21,21 +21,21 @@ public class bmicalculator {
                
       
         if(bmi < 16.0) {
-            System.out.println("Tu índice de masa corporal es " + bmi + ". Tienes delgadez severa.");
+            System.out.println("Your body mass index is " + bmi + ". You have severe thinness.");
         } else if(bmi >= 16.0 && bmi < 17.0) {
-            System.out.println("Tu índice de masa corporal es " + bmi + ". Tienes delgadez moderada.");
+            System.out.println("Your body mass index is " + bmi + ". You have moderate thinness.");
         } else if(bmi >= 17.0 && bmi < 18.5) {
-            System.out.println("Tu índice de masa corporal es " + bmi + ". Tienes delgadez leve.");
+            System.out.println("Your body mass index is " + bmi + ". You have mild thinness.");
         } else if(bmi >= 18.5 && bmi < 25.0) {
-            System.out.println("Tu índice de masa corporal es " + bmi + ". Tienes peso normal.");
+            System.out.println("Your body mass index is " + bmi + ". You have normal weight.");
         } else if(bmi >= 25.0 && bmi < 30.0) {
-            System.out.println("Tu índice de masa corporal es " + bmi + ". Tienes sobrepeso.");
+            System.out.println("Your body mass index is " + bmi + ". You are overweight.");
         } else if(bmi >= 30.0 && bmi < 35.0) {
-            System.out.println("Tu índice de masa corporal es " + bmi + ". Tienes obesidad leve.");
+            System.out.println("Your body mass index is " + bmi + ". You have obesity class I.");
         } else if(bmi >= 35.0 && bmi < 40.0) {
-            System.out.println("Tu índice de masa corporal es " + bmi + ". Tienes obesidad moderada.");
+            System.out.println("Your body mass index is " + bmi + ". You have obesity class II (severe obesity).");
         }if(bmi >= 40.0) {
-            System.out.println("Tu índice de masa corporal es " + bmi + ". Tienes obesidad mórbida.");
+            System.out.println("Your body mass index is " + bmi + ". You have obesity class III (very severe obesity).");
         }
 }}
 
