@@ -1,5 +1,16 @@
 # Java I: Body Mass Index (BMI)
 
+
+## UPDATE APP (27/15/2024)
+I added a simple interface using JOptionPane's methods "showInputDialog" and "showMessageDialog". 
+
+
+        String weight = JOptionPane.showInputDialog 
+        ("Introduce tu peso (ej: 58.2): ");
+        String height = JOptionPane.showInputDialog
+        ("Introduce tu altura (ej: 1.58): ");
+        JOptionPane.showMessageDialog(null, "Tu índice de masa corporal es: " + bmi + ". "+ classification)
+
 ## Project Context
 
 In the context of promoting health and well-being, our development team has set out to create a Body Mass Index (BMI) Calculator in Java. This application will provide users with an easy-to-use tool to calculate their BMI and better understand their physical health.
@@ -29,6 +40,15 @@ In the context of promoting health and well-being, our development team has set 
 
 
 # Java I: Índice de Masa Corporal
+## ACTUALIZACIÓN APP (27/15/2024)
+He añadido una interfaz simple usando los métodos "showInputDialog" y "showMessageDialog" de JOptionPane. 
+
+
+        String weight = JOptionPane.showInputDialog 
+        ("Introduce tu peso (ej: 58.2): ");
+        String height = JOptionPane.showInputDialog
+        ("Introduce tu altura (ej: 1.58): ");
+        JOptionPane.showMessageDialog(null, "Tu índice de masa corporal es: " + bmi + ". "+ classification)
 
 ## Contexto del Proyecto
 
